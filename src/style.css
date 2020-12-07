@@ -1,0 +1,20 @@
+body {background: radial-gradient(circle, rgba(255,255,255,1) 16%, rgba(154,213,205,1) 54%, rgba(161,227,222,1) 100%);
+width: 400px;}
+
+.bodyConfetti {background-image: url("../media/confetti.gif");
+background-image: url("../media/confetti.gif"), radial-gradient(circle, rgba(255,255,255,1) 16%, rgba(154,213,205,1) 54%, rgba(161,227,222,1) 100%); }
+
+.bodySnow {background-image: url("../media/falling\ snow.gif");
+background-image: url("../media/falling\ snow.gif"), radial-gradient(circle, rgba(255,255,255,1) 16%, rgba(154,213,205,1) 54%, rgba(161,227,222,1) 100%); }
+
+.bodyStars {background-image: url("../media/starfall.gif");
+background-image: url("../media/starfall.gif"), radial-gradient(circle, rgba(255,255,255,1) 16%, rgba(154,213,205,1) 54%, rgba(161,227,222,1) 100%); }
+
+.box {min-width: 60px;
+    max-width: 60px;
+    min-height: 60px;
+    margin-left: 10px;
+    background-color: rgb(149, 190, 214);}
+
+        
+.row {margin-top: 50px;}
