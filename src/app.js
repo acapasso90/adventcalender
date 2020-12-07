@@ -26,10 +26,12 @@ let twentythree = document.querySelector(".twentythree");
 let twentyfour = document.querySelector(".twentyfour");
 let twentyfive = document.querySelector(".twentyfive");
 
+const reindeer = document.querySelector(".reindeer");
+
 function startConfetti(){body.classList.add("bodyConfetti");}
 function startSnow(){body.classList.add("bodySnow");}
 function startStars(){body.classList.add("bodyStars");}
-
+function sayHi(){reindeer.classList.add("reindeerNow");}
 let now = new Date();
 let date = now.getDate();
 let months = [
@@ -47,6 +49,7 @@ let months = [
   "December",
 ];
 let month = months[now.getMonth()]
-if (month === "December" && date === 7){seven.addEventListener("click", startConfetti);}
+if (month === "December" && date === 7){seven.addEventListener("click", startStars);}
 if (month === "December" && date === 8){eight.addEventListener("click", startSnow);}
 if (month === "December" && date === 9){eight.addEventListener("click", startStars);}
+if (month === "December" && date === 7){twentyfour.addEventListener("click", sayHi);}

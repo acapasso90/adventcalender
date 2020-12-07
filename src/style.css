@@ -1,5 +1,5 @@
 body {background: radial-gradient(circle, rgba(255,255,255,1) 16%, rgba(154,213,205,1) 54%, rgba(161,227,222,1) 100%);
-width: 400px;}
+}
 
 .bodyConfetti {background-image: url("../media/confetti.gif");
 background-image: url("../media/confetti.gif"), radial-gradient(circle, rgba(255,255,255,1) 16%, rgba(154,213,205,1) 54%, rgba(161,227,222,1) 100%); }
@@ -16,5 +16,15 @@ background-image: url("../media/starfall.gif"), radial-gradient(circle, rgba(255
     margin-left: 10px;
     background-color: rgb(149, 190, 214);}
 
+.reindeer {
+    z-index: -1;
+min-height: 0px;
+max-height: 0px;
+max-width: 0px;}
+.reindeerNow {
+    min-height: 120px;
+    min-width: 120px;} 
         
-.row {margin-top: 50px;}
+.row {margin-top: 50px;
+display: flex;
+flex-direction: row;}
