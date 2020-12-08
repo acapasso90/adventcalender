@@ -7,43 +7,35 @@ user-select: none;
 }
 
 .bodyConfetti {background-image: url("../media/confetti.gif");
-background-image: url("../media/confetti.gif"), radial-gradient(circle, rgba(255,255,255,1) 16%, rgba(154,213,205,1) 54%, rgba(161,227,222,1) 100%); }
+    background-image: url("../media/confetti.gif"), radial-gradient(circle, rgba(255,255,255,1) 16%, rgba(154,213,205,1) 54%, rgba(161,227,222,1) 100%); }
+    
+    .bodySnow {background-image: url("../media/falling\ snow.gif");
+    background-image: url("../media/falling\ snow.gif"), radial-gradient(circle, rgba(255,255,255,1) 16%, rgba(154,213,205,1) 54%, rgba(161,227,222,1) 100%); }
+    
+    .bodyStars {background-image: url("../media/starfall.gif");
+    background-image: url("../media/starfall.gif"), radial-gradient(circle, rgba(255,255,255,1) 16%, rgba(154,213,205,1) 54%, rgba(161,227,222,1) 100%); }
 
-.bodySnow {background-image: url("../media/falling\ snow.gif");
-background-image: url("../media/falling\ snow.gif"), radial-gradient(circle, rgba(255,255,255,1) 16%, rgba(154,213,205,1) 54%, rgba(161,227,222,1) 100%); }
-
-.bodyStars {background-image: url("../media/starfall.gif");
-background-image: url("../media/starfall.gif"), radial-gradient(circle, rgba(255,255,255,1) 16%, rgba(154,213,205,1) 54%, rgba(161,227,222,1) 100%); }
-
-.box {margin-top: 50px;
-    min-width: 60px;
-    max-width: 60px;
-    min-height: 60px;
-    margin-left: 10px;
-    background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgba(143,187,255,1) 100%);
-border: 1px solid #ffffff;
-}
-
+    
 .bouncesnow {max-height: 0px;
     max-width: 0px;}
 
-.bouncesnowNow {max-height: 80px;
-    max-width: 80px;
-margin-left: -15px;}
+    .bouncesnowNow {max-height: 100px;
+        max-width: 100px;}
 
 .candycane {max-height: 0px;
     max-width: 0px;}
 
 .candycaneNow {max-height: 100px;
     max-width: 100px;
-margin-left: -15px;}
+}
 
 .candymug {max-height: 0px;
     max-width: 0px;}
 
-.candymugNow {max-height: 90px;
-    max-width: 90px;
-margin-left: -15px;}
+.candymugNow {min-height: 90px;
+    min-width: 90px;
+    margin-left: -10px;
+    }
 
 .cocoa {max-height: 0px;
 max-width: 0px;}
@@ -52,11 +44,7 @@ max-width: 0px;}
     max-width: 70px;
 margin-left: -2px;}
 
-@media (max-width: 400px)
-{.row {max-width: 75px;
-margin-right: 20px;
-position: relative;
-right: 15px;}}
+
 
 .container {display: block;
 margin-left: 200px;
@@ -79,8 +67,7 @@ margin-left: 200px;
     max-width: 0px;}
 
 .gingerbreadNow {max-height: 100px;
-    max-width: 90px;
-margin-left: -15px;}
+    max-width: 90px;}
 
 .gingerbreadhouse {max-height: 0px;
     max-width: 0px;}
@@ -100,7 +87,6 @@ margin-left: -5px;}
     max-width: 0px;}
     
     .fallingpresentNow {max-height: 110px;
-        max-width: 80px;
     margin-left: -10px;}
 
     .leglamp {max-height: 0px;
@@ -112,14 +98,10 @@ margin-left: -5px;}
 
     .ornaments {max-height: 0px;
         max-width: 0px;}
-    
-    .ornamentsNow {min-height: 100px;
-        min-width: 80px;
-    margin-left: -12px;}
+
 
 .pirategingerbread { max-height: 0px;
     max-width: 0px;
-    margin-left: -15px;
 margin-top: -5px
 }
 
@@ -154,21 +136,19 @@ max-width: 0px;}
 .sleigh{max-height: 0px;
     max-width: 0px;}
 
-.sleighNow{max-height: 100px;
-    max-width: 70px;}
+.sleighNow{max-height: 100px;}
 
 .snowdog {max-height: 0px;
     max-width: 0px;}
 
 .snowdogNow {max-height: 100px;
-    max-width: 78px;}
+    max-width: 88px;}
 
     .snowman{max-height: 0px;
         max-width: 0px;}
 
     .snowmanNow{max-height: 100px;
-        max-width: 75px;
-    margin-left: -5px;}
+        max-width: 75px;}
 
     .snowmanappear{max-height: 0px;
         max-width: 0px;}
@@ -182,12 +162,73 @@ max-width: 0px;}
         max-width: 0px;}
     
     .wreathNow {max-height: 100px;
-        max-width: 90px;
-    margin-left: -15px;}
+        max-width: 90px;}
 
 .yulelog {max-height: 0px;
     max-width: 0px;}
 
 .yulelogNow {max-height: 100px;
+    max-width: 75px;}
+
+    @media (max-width: 400px)
+{.row {max-width: 75px;
+margin-right: 20px;
+position: relative;
+right: 15px;}
+.box {margin-top: 50px;
+    min-width: 60px;
+    max-width: 60px;
+    min-height: 60px;
+    margin-left: 10px;
+    background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgba(143,187,255,1) 100%);
+border: 2px solid #a9c1e0;
+}
+.bouncesnowNow {
+margin-left: -20px;}
+.candycaneNow {margin-left: -20px;}
+.candymugNow {    min-width: 75px;
     max-width: 75px;
-margin-left: -15px;}
+    margin-left: -10px;}
+    .fallingpresentNow { max-width: 70px;}
+    .gingerbreadNow {margin-left: -20px;}
+    .ornamentsNow {min-height: 100px;
+        min-width: 50px;
+        max-width: 60px;
+    margin-left: -2px;}
+.pirateNow {    margin-left: -20px;}
+.snowdogNow {margin-left: -15px;}
+.snowmanNow{
+    margin-left: -8px;}
+    .sleighNow     {max-width: 55px;}
+    .wreathNow   {margin-left: -15px;}
+.yulelogNow {margin-left: -15px;}
+}
+
+
+
+@media (min-width: 451px){.container {display: block;
+    margin-left: 450px;}
+    .box {margin-top: 50px;
+        min-width: 80px;
+        max-width: 80px;
+        min-height: 80px;
+        margin-left: 10px;
+        background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgba(143,187,255,1) 100%);
+    border: 2px solid #a9c1e0;}
+    .bouncesnowNow {
+    margin-left: -10px;}
+    .candycaneNow {margin-left: -15px;}
+    .candymugNow {    min-width: 90px;
+    margin-left: -10px;}
+    .fallingpresentNow { max-width: 80px;}
+        .gingerbreadNow {margin-left: -5px;}
+        .ornamentsNow {min-height: 100px;
+            min-width: 80px;
+        margin-left: -2px;}
+            .snowmanNow{
+            margin-left: -5px;}
+            .sleighNow     {max-width: 70px;}
+                .pirateNow {    margin-left: -15px;}
+    .wreathNow   {margin-left: -5px;}
+    .yulelogNow {margin-left: -5px;}
+}
