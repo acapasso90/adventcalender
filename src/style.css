@@ -1,5 +1,10 @@
 body {background: radial-gradient(circle, rgba(255,255,255,1) 16%, rgba(154,213,205,1) 54%, rgba(161,227,222,1) 100%);
-max-width: 570px;}
+max-width: 370px;
+color: rgb(41, 3, 110);
+font-family: 'Dancing Script', cursive;
+font-size: 20px;
+user-select: none;
+}
 
 .bodyConfetti {background-image: url("../media/confetti.gif");
 background-image: url("../media/confetti.gif"), radial-gradient(circle, rgba(255,255,255,1) 16%, rgba(154,213,205,1) 54%, rgba(161,227,222,1) 100%); }
@@ -15,7 +20,9 @@ background-image: url("../media/starfall.gif"), radial-gradient(circle, rgba(255
     max-width: 60px;
     min-height: 60px;
     margin-left: 10px;
-    background-color: rgb(149, 190, 214);}
+    background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgba(143,187,255,1) 100%);
+border: 1px solid #ffffff;
+}
 
 .bouncesnow {max-height: 0px;
     max-width: 0px;}
@@ -45,7 +52,15 @@ max-width: 0px;}
     max-width: 70px;
 margin-left: -2px;}
 
+@media (max-width: 400px)
+{.row {max-width: 75px;
+margin-right: 20px;
+position: relative;
+right: 15px;}}
 
+.container {display: block;
+margin-left: 200px;
+}
 
 .cupcake {max-height: 0px;
     max-width: 0px;}
@@ -134,9 +149,8 @@ max-width: 0px;}
     min-height: 120px;
     min-width: 120px;} 
 
-    .row {display: inline-block;}
-.rowFour {position: relative;
-bottom: 24px;}
+    .row {    flex-wrap: nowrap;}
+
 .sleigh{max-height: 0px;
     max-width: 0px;}
 
