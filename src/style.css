@@ -16,6 +16,57 @@ background-image: url("../media/starfall.gif"), radial-gradient(circle, rgba(255
     margin-left: 10px;
     background-color: rgb(149, 190, 214);}
 
+.bouncesnow {max-height: 0px;
+    max-width: 0px;}
+
+.bouncesnowNow {max-height: 80px;
+    max-width: 80px;
+margin-left: -15px;}
+
+.candycane {max-height: 0px;
+    max-width: 0px;}
+
+.candycaneNow {max-height: 100px;
+    max-width: 100px;
+margin-left: -15px;}
+
+.candymug {max-height: 0px;
+    max-width: 0px;}
+
+.candymugNow {max-height: 90px;
+    max-width: 90px;
+margin-left: -15px;}
+
+.gingerbread {max-height: 0px;
+    max-width: 0px;}
+
+.gingerbreadNow {max-height: 100px;
+    max-width: 90px;
+margin-left: -15px;}
+
+.pirategingerbread { max-height: 0px;
+    max-width: 0px;
+    margin-left: -15px;
+margin-top: -5px
+}
+
+.pirateNow {max-height: 100px;
+    max-width: 100px;}
+
+.pixelpresents {max-height: 0px;
+max-width: 0px;}
+
+.pixelPresentsNow {max-height: 110px;
+    max-width: 110px;}
+
+    .rabbit {max-height: 0px;
+        max-width: 0px;
+    }
+
+.rabbitNow {max-height: 90px;
+    max-width: 90px;
+position: relative;
+right: 7px;}
 .reindeer {
     z-index: -1;
 min-height: 0px;
@@ -28,3 +79,16 @@ max-width: 0px;}
 .row {margin-top: 50px;
 display: flex;
 flex-direction: row;}
+
+.snowdog {max-height: 0px;
+    max-width: 0px;}
+
+.snowdogNow {max-height: 100px;
+    max-width: 78px;}
+
+.yulelog {max-height: 0px;
+    max-width: 0px;}
+
+.yulelogNow {max-height: 100px;
+    max-width: 75px;
+margin-left: -15px;}
