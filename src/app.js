@@ -36,6 +36,19 @@ const candymug = document.querySelector(".candymug");
 const bouncesnow = document.querySelector(".bouncesnow");
 const yulelog = document.querySelector(".yulelog");
 const gingerbread = document.querySelector(".gingerbread");
+const snowman = document.querySelector(".snowman");
+const cocoa = document.querySelector(".cocoa");
+const cupcake = document.querySelector(".cupcake");
+const fallingpresent = document.querySelector(".fallingpresent");
+const gingerbreadhouse = document.querySelector(".gingerbreadhouse");
+const helloreindeer = document.querySelector(".helloreindeer");
+const leglamp = document.querySelector(".leglamp");
+const ornaments = document.querySelector(".ornaments");
+const giftpresent = document.querySelector(".giftpresent");
+const wreath = document.querySelector(".wreath");
+const snowmanappear = document.querySelector(".snowmanappear");
+const sleigh = document.querySelector(".sleigh");
+
 function startConfetti(){body.classList.add("bodyConfetti");}
 function startSnow(){body.classList.add("bodySnow");}
 function startStars(){body.classList.add("bodyStars");}
@@ -48,7 +61,22 @@ function daySix(){candymug.classList.add("candymugNow");}
 function daySeven(){bouncesnow.classList.add("bouncesnowNow");}
 function dayNine(){yulelog.classList.add("yulelogNow");}
 function dayTen(){gingerbread.classList.add("gingerbreadNow");}
+function dayEleven(){snowman.classList.add("snowmanNow");}
+function dayThirteen(){cocoa.classList.add("cocoaNow");}
+function dayFourteen(){cupcake.classList.add("cupcakeNow");}
+function dayFifteen(){fallingpresent.classList.add("fallingpresentNow");}
+function daySixteen(){gingerbreadhouse.classList.add("gingerbreadhouseNow");}
+function daySeventeen(){helloreindeer.classList.add("helloreindeerNow");}
+function dayEighteen(){leglamp.classList.add("leglampNow");}
+function dayNineteen(){ornaments.classList.add("ornamentsNow");}
+function dayTwentyOne(){giftpresent.classList.add("giftpresentNow");}
+function dayTwentyTwo(){wreath.classList.add("wreathNow");}
+function dayTwentyThree(){snowmanappear.classList.add("snowmanappearNow");}
 function dayTwentyFour(){reindeer.classList.add("reindeerNow");}
+function dayTwentyFive(){sleigh.classList.add("sleighNow");
+dayTwentyFour(); dayTwentyThree(); dayTwentyTwo(); dayTwentyOne(); dayNineteen(); dayEighteen();
+daySeventeen(); daySixteen(); dayFifteen(); dayFourteen(); dayThirteen(); startSnow(); dayEleven(); dayTen(); dayNine(); 
+daySeven(); daySix(); dayFive(); dayFour(); dayThree(); dayTwo(); dayOne();}
 
 
 let now = new Date();
@@ -78,6 +106,18 @@ if (month === "December" && date === 7){seven.addEventListener("click", daySeven
 if (month === "December" && date === 8){eight.addEventListener("click", startConfetti);}
 if (month === "December" && date === 9){nine.addEventListener("click", dayNine);}
 if (month === "December" && date === 10){ten.addEventListener("click", dayTen);}
+if (month === "December" && date === 11){eleven.addEventListener("click", dayEleven);}
 if (month === "December" && date === 12){twelve.addEventListener("click", startSnow);}
+if (month === "December" && date === 13){thirteen.addEventListener("click", dayThirteen);}
+if (month === "December" && date === 14){fourteen.addEventListener("click", dayFourteen);}
+if (month === "December" && date === 15){fifteen.addEventListener("click", dayFifteen);}
+if (month === "December" && date === 16){sixteen.addEventListener("click", daySixteen);}
+if (month === "December" && date === 17){seventeen.addEventListener("click", daySeventeen);}
+if (month === "December" && date === 18){eighteen.addEventListener("click", dayEighteen);}
+if (month === "December" && date === 19){nineteen.addEventListener("click", dayNineteen);}
 if (month === "December" && date === 20){twenty.addEventListener("click", startStars);}
+if (month === "December" && date === 21){twentyone.addEventListener("click", dayTwentyOne);}
+if (month === "December" && date === 22){twentytwo.addEventListener("click", dayTwentyTwo);}
+if (month === "December" && date === 23){twentythree.addEventListener("click", dayTwentyThree);}
 if (month === "December" && date === 24){twentyfour.addEventListener("click", dayTwentyFour);}
+if (month === "December" && date === 25){twentyfive.addEventListener("click", dayTwentyFive);}
