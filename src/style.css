@@ -1,6 +1,6 @@
 body {background: radial-gradient(circle, rgba(255,255,255,1) 16%, rgba(154,213,205,1) 54%, rgba(161,227,222,1) 100%);
 max-width: 370px;
-color: rgb(41, 3, 110);
+color: #29036e;
 font-family: 'Dancing Script', cursive;
 font-size: 20px;
 user-select: none;
@@ -75,6 +75,14 @@ margin-left: 200px;
 .gingerbreadhouseNow {min-height: 100px;
     max-width: 80px;
 margin-left: -10px;}
+
+.header {text-align: center;
+white-space: nowrap;
+font-family: 'Caudex', serif;
+color: #3437f3;
+text-shadow: 1px 1px 0px  #00ffdd,
+-1px -1px 0px  #00ffdd;
+}
 
 .helloreindeer {max-height: 0px;
     max-width: 0px;}
@@ -191,6 +199,9 @@ margin-left: -20px;}
     margin-left: -10px;}
     .fallingpresentNow { max-width: 70px;}
     .gingerbreadNow {margin-left: -20px;}
+    .header {margin-left: 5px;}
+    .header2 {margin-left: -60px;
+    font-size: 28px;}
     .ornamentsNow {min-height: 100px;
         min-width: 50px;
         max-width: 60px;
@@ -222,6 +233,8 @@ margin-left: -20px;}
     margin-left: -10px;}
     .fallingpresentNow { max-width: 80px;}
         .gingerbreadNow {margin-left: -5px;}
+        .header {margin-left: 30px;}
+        .header2 {margin-left: -65px;}
         .ornamentsNow {min-height: 100px;
             min-width: 80px;
         margin-left: -2px;}
